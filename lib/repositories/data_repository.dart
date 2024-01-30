@@ -89,6 +89,8 @@ class DataRepository with ChangeNotifier {
     }
   }
 
+  //Il y a une méthode plus simple grâce à l'API TMDB pour éviter les répétitions mais j'ai préféré
+  // laisser le détail
   Future<void> initData() async {
     //Permet de passer les appels en même temps(plus performant)
     Future.wait([

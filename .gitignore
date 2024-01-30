@@ -31,6 +31,7 @@ migrate_working_dir/
 .pub/
 /build/
 lib/services/api_key.dart
+/Users/marie/Desktop/netfloux/lib/services/api_key.dart
 
 # Symbolication related
 app.*.symbols
